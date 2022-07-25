@@ -11,9 +11,9 @@ int main(){
 	printf("Vui long nhap c =");
 	scanf("%d",&c);
 	int C;
-	int p;
-	int S;
-	int BP;
+	float p;
+	float S;
+	float BP;
 	if(a+b>c){
 		if(b+c>a){
 			if(c+a>b){
@@ -22,7 +22,7 @@ int main(){
 				BP=p*(p-a)*(p-b)*(p-c);
 				S=sqrt(BP);
 				printf("Chu vi tam giac = %d",C);
-				printf(" va Dien tich tam giac = %d",S);
+				printf(" va Dien tich tam giac = %f",S);
 			}else{
 				printf("Ba so da nhap khong phai 3 canh cua tam giac");
 			}
